@@ -1,0 +1,107 @@
+.main {
+    position: relative;
+    background: url(../upload/login-bg.png) no-repeat;
+    height: 475px;
+    background-size: 100% 100%;
+}
+
+.footer {
+    height: 180px;
+}
+
+.login-box {
+    position: absolute;
+    top: 60px;
+    right: 200px;
+    height: 350px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.header-choose {
+    height: 30px;
+    margin-top: 20px;
+}
+
+.header-choose ul {
+    display: flex;
+}
+
+.header-choose ul li {
+    position: relative;
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.header-choose ul li:nth-child(2) a {
+    color: #c81623;
+}
+
+.attention {
+    background-color: #fffdee;
+    height: 28px;
+    line-height: 28px;
+    margin: 5px 0 10px 0;
+    text-indent: 1em;
+    border: 1px solid #ccc;
+}
+
+.layui-form {
+    width: 400px;
+    padding: 0 32px;
+}
+
+.layui-form-item,
+.layui-form-pwd {
+    position: relative;
+    height: 50px;
+}
+
+.layui-input {
+    display: block;
+    height: 38px;
+    width: 100%;
+    padding-left: 38px;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+}
+
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.lgoinButton {
+    width: 100%;
+    height: 40px;
+    background-color: #c81623;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.storage {
+    height: 28px;
+    line-height: 28px;
+}
+
+.storage input {
+    vertical-align: middle;
+}
+
+.addition {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,136 @@
+.header {
+    border-bottom: 3px solid #c81623;
+}
+
+.footer {
+    height: 180px;
+    background-color: #fff;
+}
+
+.registerarea {
+    position: relative;
+    height: 522px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    position: relative;
+    padding: 0 10px;
+    height: 42px;
+    line-height: 42px;
+    font-weight: 400;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+}
+
+.registerarea h3 .login {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 14px;
+}
+
+.registerarea h3 .login a {
+    color: #c81623;
+}
+
+.reg_form {
+    width: 600px;
+    height: 480px;
+    position: absolute;
+    left: 35%;
+    top: 42px
+}
+
+.reg_form ul {
+    margin-top: 60px;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_label {
+    display: block;
+    float: left;
+    text-align: right;
+    width: 95px;
+    padding: 9px 15px;
+}
+
+.ipt {
+    border: 1px solid #ccc;
+    height: 37px;
+    width: 242px;
+}
+
+.error {
+    display: none;
+    color: #c81623;
+}
+
+.sucess {
+    display: none;
+    color: green;
+}
+
+.error_icon,
+.success_icon {
+    display: none;
+    /* display: inline-block; */
+    color: #c81623;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+}
+
+.success_icon {
+    background: url(../images/success.png)no-repeat;
+}
+
+.safe {
+    display: none;
+    padding-left: 170px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.confirm {
+    padding-left: 95px;
+}
+
+.confirm input {
+    vertical-align: middle;
+}
+
+.confirm a {
+    color: blue;
+}
+
+.btn {
+    background-color: #c81623;
+    width: 200px;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+    text-align: center;
+    margin-left: 70px;
+}
